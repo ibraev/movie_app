@@ -1,0 +1,21 @@
+.movie-item {
+    display: flex;
+    z-index: 2;
+    flex-direction: row;
+    padding: 10px 40px;
+    border-bottom: 1px solid #FFFFFF;
+    justify-content: space-between;
+    background: #FFFFFF;
+    align-items: center;
+}
+
+.movie-item .movie-title {
+    color: #2e3f4a;
+    margin: 10px 0;
+}
+
+.movie-link {
+    color: #2e3f4a;
+    text-decoration: none;
+}
+

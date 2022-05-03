@@ -1,0 +1,23 @@
+.favorite-item {
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px 0 0 0 ;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 870px;
+}
+
+.favorite-item:hover .favorite-button {
+    display: block;
+}
+
+.favorite-button  {
+    display: block;
+    background: red;
+    color: #FFFFFF;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+}

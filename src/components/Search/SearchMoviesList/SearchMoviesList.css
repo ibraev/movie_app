@@ -1,0 +1,8 @@
+.search-movies-list {
+    background: #FFFFFF;
+    z-index: 3;
+    position: absolute;
+    color: #2e3f4a;
+    width: 95%;
+    margin-top: 48px
+}
