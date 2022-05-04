@@ -15,9 +15,9 @@ function App() {
         <BrowserRouter>
             <Header/>
             <Routes>
-                <Route path="/movie_app/" element={<Home/>}/>
-                <Route path="/movie_app/favorites" element={<Favorites/>}/>
-                <Route path="/movie_app/movie/:movie_id" element={<Detail/>}/>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/favorites" element={<Favorites/>}/>
+                <Route path="/movie/:movie_id" element={<Detail/>}/>
             </Routes>
         </BrowserRouter>
     </div>
