@@ -30,7 +30,7 @@ const DetailCard = () => {
                 <div className="detail-content">
                     <div className="detail-media">
                         <img className="detail-image"  src={`https://image.tmdb.org/t/p/w300_and_h450_bestv2/${poster_path}`} alt=""/>
-                        {favorites.map((movie) => {
+                        {favorites && favorites.map((movie) => {
                             return (
                                 <Fragment>
                                     {movie.id === detail.id ?
